@@ -64,3 +64,49 @@ main{
     color: #f1eded;
 }
 
+#theme_page {
+    
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+    font-weight: 400;
+
+    margin-top: 10px;
+    padding: 10px 16px;
+    
+    
+    border: none;
+    border-radius: 25px;
+    
+    
+    background-color: #48b4d4;
+    color: rgb(255, 255, 255);
+    
+    cursor: pointer;
+    transition:   0.3s ease;
+    margin-top: 180px ;
+}
+
+button:hover{
+     filter: brightness(93%);
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f7f3f3;
+}
+
+body.dark-mode main {
+    background-color: #3f5683;
+    border-color: #fffefe;
+}
+
+body.dark-mode a {
+    color: #8cb5f3;
+}
+
+body.dark-mode a:hover {
+    color: #ffffff;
+}
+
+body.dark-mode .header h2 {
+    color: #ffffff;
+}
