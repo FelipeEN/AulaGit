@@ -50,6 +50,8 @@ main{
         
         background-color: #8cb5f3;
 
+        display: flex;
+        justify-content: space-between;
 }
 
 .header{
@@ -57,11 +59,20 @@ main{
     border-bottom-color:black ;
     border-bottom-style:solid ;
     border-bottom-width: 1px;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .header h2 {
     color: #f1eded;
+}
+
+.header p {
+    text-align: justify;
+}
+
+header img{
+    height: 80px;
+    border-radius: 50%;
 }
 
 #theme_page {
@@ -82,7 +93,8 @@ main{
     
     cursor: pointer;
     transition:   0.3s ease;
-    margin-top: 180px ;
+   /* margin-top: 90px ; */
+   margin-bottom: 25px;
 }
 
 button:hover{
@@ -109,4 +121,87 @@ body.dark-mode a:hover {
 
 body.dark-mode .header h2 {
     color: #ffffff;
+}
+
+body.dark-mode #contador{
+    border-color: #f1eded;
+}
+#contador{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.infor {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#contador button{
+    padding: 10px ;
+    border: none;
+    background-color: #f37758;
+
+    color: #fffefe;
+    cursor: pointer;
+
+}
+
+#contador button:hover{
+        filter: brightness(96%);
+}
+
+#contador{
+    border: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: #48b4d4;
+    width: 250px;
+    padding: 12px ;
+}
+
+.aprendendo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-color: #f7f3f3;
+    max-width: 500px;
+
+    gap: 12px;
+    border: solid;
+    border-color: #000000;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.aprendendo > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+
+}
+.aprendendo label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.aprendizado:checked + span {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.aprendendo div{
+    gap: 20px;
+    display: flex;
+}
+.aprendendo h3 {
+     font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+     font-weight: 400;
 }

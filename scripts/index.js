@@ -1,3 +1,5 @@
+const { createElement } = require("react")
+
 const btnTheme = document.getElementById('theme_page')
 
 btnTheme.addEventListener( 'click', ()=>{
@@ -10,3 +12,17 @@ btnTheme.addEventListener( 'click', ()=>{
     }
 
 })
+
+
+const btnNumero = document.getElementById('numero')
+const btnContador = document.getElementById('btnContador')
+
+let contador = 0;
+btnContador.addEventListener('click', ()=>{
+    
+    contador ++
+
+    btnNumero.textContent = contador
+
+})
+
