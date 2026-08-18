@@ -21,6 +21,10 @@ header{
 header h3{
     font-weight:400;
 }
+header img{
+    height: 80px;
+    border-radius: 50%;
+}
 a{
     color: #000000;
     text-decoration: none;
@@ -70,10 +74,7 @@ main{
     text-align: justify;
 }
 
-header img{
-    height: 80px;
-    border-radius: 50%;
-}
+
 
 #theme_page {
     
@@ -93,7 +94,7 @@ header img{
     
     cursor: pointer;
     transition:   0.3s ease;
-   /* margin-top: 90px ; */
+  
    margin-bottom: 25px;
 }
 

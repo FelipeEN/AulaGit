@@ -1,5 +1,3 @@
-const { createElement } = require("react")
-
 const btnTheme = document.getElementById('theme_page')
 
 btnTheme.addEventListener( 'click', ()=>{
